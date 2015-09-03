@@ -64,6 +64,7 @@ echo What you just went through was creating some folders for the installer. The
 echo first step (after the folders) is to copy the installers to the folders. We can
 echo do that now, or just move on with the readme.
 if %firsttime%==1 (goto ask_copy) 
+
 :continue_readme
 echo Ok, let's move on.
 echo                                                                              l 
