@@ -135,6 +135,7 @@ if not exist "%discd%" (goto dvdep7a)
 echo Copying Supernatural Install Files...
 copy "%discd%*" "%USERPROFILE%\My Documents\TS3\EP7\*"
 goto dvdep7r
+
 :dvdep8
 echo Please insert the Seasons DVD.
 :dvdep8a
