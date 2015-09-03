@@ -4,8 +4,7 @@
 #include <string>
 #include <windows.h>
 
-bool dirExists(const std::string& dirName_in)
-{
+bool dirExists(const std::string& dirName_in) {
   DWORD ftyp = GetFileAttributesA(dirName_in.c_str());
   if (ftyp == INVALID_FILE_ATTRIBUTES)
     return false;  //something is wrong with your path!
